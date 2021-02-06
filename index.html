@@ -3,10 +3,11 @@
 <head>
     <script src="https://kit.fontawesome.com/2040ca710f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/reset.css">
     <link rel="stylesheet" href="Css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 8</title>
+    <link rel="stylesheet" href="Css/responsive.css">
+    <title>Assignment 9</title>
 </head>
 <body>
     <header class="header-wrapper">
@@ -14,25 +15,31 @@
             <a class="logo" href="#">
                <img class="logo-img" src="Images/html-logo.svg" alt="logo"> 
             </a>
-            <ul class="nav-ul">
-                <li class="nav-li">
-                    <a href="#">Home</a>
-                </li>
-                <li class="nav-li">
-                    <a href="#">News</a>
-                </li>
-                <li class="nav-li">
-                    <a href="#">About</a>
-                </li>
-                <li class="nav-li">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
+            <nav class="navigation">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-li">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+               
             <div class="nav-i">
                 <i class="fab fa-google-plus-g"></i>
                 <i class="fab fa-facebook-f"></i>
                 <i class="fab fa-youtube"></i>
                 <i class="fas fa-search"></i>
+            </div>
+            <div class="burger-icon">
+                <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
@@ -43,33 +50,43 @@
         </div>
     </section>
     <section class="section-2">
-        <h5 class="section2-h5">VIDEOS | view all videos</h5>
-        <div class="videos-2-div">
+        <div class="section-2-div">
+            <h5 class="section2-h5">VIDEOS | view all videos</h5>
+            <div class="videos-2-div">
             <div class="vid-div">
                 <h4 class="vid-text">EMBEDED YOUTUBE VIDEO GOES HERE</h4>
             </div>
             <div class="vid-div">
                 <h4 class="vid-text">EMBEDED YOUTUBE VIDEO GOES HERE</h4>
             </div>
-        </div>
+            </div>
+        </div> 
     </section>
     <section class="section-3">
         <h5 class="section3-h5">NEWS | view all news</h5>
         <div class="four-divs"> 
             <div class="news-divs">
-                <img src="Images/typography.png" alt="photo">
+                <div class="img-box"> 
+                    <img src="Images/typography.png" alt="photo">
+                </div>
                 <h6>TYPOGRAPHY LAB</h6>
             </div>
             <div class="news-divs">
-                <img src="Images/marketing.png" alt="photo">
+                <div class="img-box">
+                    <img src="Images/marketing.png" alt="photo">
+                </div>
                 <h6>ONLINE MARKETING</h6>
             </div>
             <div class="news-divs">
-                <img src="Images/coding.png" alt="photo">
+                <div class="img-box">
+                    <img src="Images/coding.png" alt="photo">
+                </div>
                 <h6>C# CODING</h6>
             </div>
             <div class="news-divs">
-                <img src="Images/interface.png" alt="photo">
+                <div class="img-box">
+                    <img src="Images/interface.png" alt="photo">
+                </div>
                 <h6>INTERFACE DESIGN</h6>
             </div>
         </div>
